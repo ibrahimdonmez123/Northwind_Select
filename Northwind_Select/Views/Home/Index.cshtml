@@ -1,0 +1,21 @@
+﻿@model List<Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+ 
+<a href="/Home/DetayliSelect"><i>DETAYLI SELECT TABLOSUNU GÖR<i></a>
+
+<ul>
+@foreach ( var item in Model)
+{
+    <li>@item.ProductName</li>
+}
+</ul>
+
+
+
+<a href="/Home/DetayliSelect"><i>DETAYLI SELECT TABLOSUNU GÖR<i></a>
+
+
+
